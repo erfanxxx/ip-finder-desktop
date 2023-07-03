@@ -9,10 +9,15 @@ cd ip-finder-desktop
 
 
 [----------run-----------]
-[                        ]
-[                        ]
-[  python ip-finder.py   ]
-                         ]
-[  -----or-----          ]
-[                        ]
-[  ip-finder.exe         ]
+
+-                       
+                      
+python ip-finder.py
+
+-
+              
+-----or----- 
+
+-
+  
+ip-finder.exe         
