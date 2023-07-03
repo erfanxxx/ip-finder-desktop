@@ -18,7 +18,7 @@ def set_window():
     window = tk.Tk()
     window.geometry('1000x500')
     path = os.getcwd()
-    icon_address = path+'icon-window.ico'
+    icon_address = path+'/icon-window.ico'
     _ico = Image.open(icon_address)
     ico = ImageTk.PhotoImage(_ico)
     window.wm_iconphoto(False, ico)
@@ -50,7 +50,7 @@ def Go():
         window2 = tk.Tk()
         window2.geometry('1000x500')
         path = os.getcwd()
-        icon_address = path+'\icons\icon-window.ico'
+        icon_address = path+'/icon-window.ico'
         _ico = Image.open(icon_address)
         ico = ImageTk.PhotoImage(_ico)
         window2.wm_iconphoto(False, ico)
@@ -138,7 +138,6 @@ def Go():
     label33 = tk.Label(master=f23, text='net mask : ', bg='orange', font=('Times', 13))
     label34 = tk.Label(master=f23, text=str(ipaddress.IPv4Network(data_['ip']).netmask), bg='yellow', font=('Times', 13))
     if checkvar.get() == 1:
-        os.chdir('maps')
         location_ = [data_['latitude'], data_['longitude']]
         MAP1 = folium.Map(location = location_, zoom_start=12) 
         MAP_ = folium.Marker(location=location_, popup = "IP location: "+data_['ip'], icon=folium.Icon(color = 'green')).add_to(MAP1)
