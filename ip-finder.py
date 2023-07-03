@@ -18,7 +18,7 @@ def set_window():
     window = tk.Tk()
     window.geometry('1000x500')
     path = os.getcwd()
-    icon_address = path+'\icons\icon-window.ico'
+    icon_address = path+'icon-window.ico'
     _ico = Image.open(icon_address)
     ico = ImageTk.PhotoImage(_ico)
     window.wm_iconphoto(False, ico)
