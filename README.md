@@ -8,7 +8,7 @@ git clone https://github.com/erfanxxx/ip-finder-desktop
 cd ip-finder-desktop
 
 
- run
+------run------
 
 
 python ip-finder.py 
