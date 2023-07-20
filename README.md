@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/erfanxxx/ip-finder-desktop
 ```
-# Use
+## Use
 
 ```
 cd ip-finder-desktop 
