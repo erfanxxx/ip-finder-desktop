@@ -1,7 +1,7 @@
 # Ip-finder-desktop
 - find your ip information
 
-# Download:
+# Download
 
 ```
 git clone https://github.com/erfanxxx/ip-finder-desktop
