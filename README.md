@@ -3,7 +3,8 @@
 
 # Download and use:
 
-shell```git clone https://github.com/erfanxxx/ip-finder-desktop
+```
+git clone https://github.com/erfanxxx/ip-finder-desktop
 
 cd ip-finder-desktop 
 
