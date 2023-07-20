@@ -1,13 +1,14 @@
-# ip-finder-desktop
+# Ip-finder-desktop
 - find your ip information
 
-# usage:
+# Download and use:
 
-## git clone https://github.com/erfanxxx/ip-finder-desktop
+shell```git clone https://github.com/erfanxxx/ip-finder-desktop
 
-- cd ip-finder-desktop 
+cd ip-finder-desktop 
 
 
-- pip install -r requirements.txt
+pip install -r requirements.txt
                       
-- python ip-finder.py
+python ip-finder.py
+```
