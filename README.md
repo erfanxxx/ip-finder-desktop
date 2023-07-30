@@ -17,7 +17,7 @@ python ip-finder.py
 ```
 <br><br><br>
 
-<h1>How does it work?
+<h1>How does it work? <br>
 Look at this window</h1>
 <br>
 
