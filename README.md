@@ -15,3 +15,12 @@ pip install -r requirements.txt
                       
 python ip-finder.py
 ```
+<br><br><br>
+
+<h1>How does it work?
+Look at this window</h1>
+<br>
+
+<p align="center">
+  <img src="https://s8.uupload.ir/files/ip-finder-w_2ki9.png">
+</p>
